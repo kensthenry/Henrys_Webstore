@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "/mypage", to: "articles#index"
+  get "/mypage", to: "articles#currentproducts"
 end
