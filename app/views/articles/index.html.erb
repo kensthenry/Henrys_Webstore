@@ -1,0 +1,15 @@
+<h1>Welcome to Henry's Webstore! We've got the goods!</h1>
+<p>Shop here for a variey of sporting goods, fresh foods, and outdoor accessories.</p>
+
+<ol>
+  <li>Article 1 </li>
+  <li>Article 2 </li>
+</ol>
+
+<ol>
+<% @articles.each do |article| %>
+<li>
+<%= article.title%>
+</li>
+<% end %>
+</ol>
